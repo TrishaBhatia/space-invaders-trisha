@@ -532,7 +532,7 @@ function drawBlinker(func1, func2){
 }
   
   function drawStartScreen(){
-    drawBlinker(function(){ drawScreen__line1("Space Invaders") },function(){ drawScreen__line2("press enter to play") });
+    drawBlinker(function(){ drawScreen__line1("Space Invaders") },function(){ drawScreen__line2("press enter to play") }function(){ drawScreen__line4("~trisha bhatia") });
   }
 
 
